@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Fun Travel</title>
+        <link rel="stylesheet" href="css/travel.css">
+        <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </head>
+    <body>
+        <section id="portada" class="portada"> <!--portada-->
+            <header id="header" class="hearder contenedor"><!-- header -->
+                <figure class="logotipo"><!-- logotipo -->
+                    <img src="images/white.png" width="100" height="100" alt="logotipo">
+                </figure>
+                <nav class="menu"><!-- menu -->
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#travels">Viajes</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </header>
+            <div class="contenedor animated fadeInUp">
+                <h1 class="titulo">Recorre el <span>Mundo</span></h1><!-- titulo -->
+                <h3 class="title-a">Conoce nuevos destinos</h3> <!-- resumen -->
+                <a class="button" href="#travels">Descubre mas</a><!-- boton -->
+            </div>
+
+        </section>
+
+        <section id="travels"class="travels contenedor"><!--francia-->
+            <h2>Nuestros destinos</h2><!-- titulo -->
+            <article class="travel"><!-- francia1 -->
+                <img class="right" src="images/europe.jpg" alt="europe" width="350">
+                <div class="contenedor-travel-a">
+                <h3 class="title-b">Europa</h3>
+                <ol>
+                    <li>Alojamiento</li>
+                    <li>Transporte</li>
+                    <li>Comida</li>
+                </ol>
+                </div>
+            </article>
+            <article class="travel"><!-- roma1 -->
+                <img class="left" src="images/asia.jpg" alt="asia" width="350">
+                <div class="contenedor-travel-b">
+                <h3 class="title-b">Asia</h3>
+                <ol>
+                    <li>Alojamiento</li>
+                    <li>Transporte</li>
+                    <li>Comida</li>
+                </ol>
+                </div>
+            </article>
+            </section>
+            <footer class="footer">
+            <div class="contenedor">
+               <div class="contacto">
+                <img src="images/white.png" alt="logotipo white">
+                <a href="tel:+569864597"><strong>Telefono</strong><span>3024456678</span></a>
+                <a href="mailto:"><strong>E-mail</strong><span>contacto@invie.com</span></a>
+               </div>
+                <form class="formulario">
+                    <div class="col1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" required id="nombre" name="nombre"/>
+                        <label for="email">E-mail</label>
+                        <input type="email" required id="email" name="email"/>
+                        <div class="sexo">
+                            <label for="mujer">
+                            <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+                            </label>
+                            <label for="hombre">
+                            <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+                            </label>
+                        </div>
+                        <div class="intereses">
+                            <label for="cotizacion">
+                            <input type="checkbox" id="cotizacion" checked name="intereses" value="cotizacion">Cotización
+                            </label>
+                            <label for="reclamos">
+                            <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+                            </label>
+                            <label for="comentarios">
+                            <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+                            </label>
+                            <label for="otros">
+                            <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" rows="10" cols="40"></textarea>
+                        <input type="submit" name="" value="Enviar"class="button"/>
+
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

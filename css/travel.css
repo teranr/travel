@@ -1,0 +1,209 @@
+body {
+font-family: 'Allerta', sans-serif;
+margin: 0;
+
+
+}
+
+input:focus, textarea:focus {
+    background: lightgray;
+}
+
+.contenedor {
+    width: 800px;
+    margin: auto;
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    /* background: #ffc0c2; */
+    color: white;
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    /* background: linear-gradient( to left, #FC1919, #D32341); */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+-1,febbbb+0,fc1919+2,fe9090+45,d32341+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+-1,febbbb+0,fc1919+2,fe9090+45,d32341+100 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #febbbb -1%, #febbbb 0%, #fc1919 2%, #fe9090 45%, #d32341 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #febbbb -1%,#febbbb 0%,#fc1919 2%,#fe9090 45%,#d32341 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #febbbb -1%,#febbbb 0%,#fc1919 2%,#fe9090 45%,#d32341 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#d32341',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+.titulo {
+    font-family: 'Allerta', sans-serif;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.titulo span {
+    text-decoration: underline;
+}
+
+.title-a {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.title-b {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.travels {
+    color: #FF5959;
+    margin-bottom: 60px;
+}
+
+.travels h2 {
+    font-size: 35px;
+
+}
+
+.portada {
+    background-image: url("../images/sunset.png");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.portada button {
+    margin-bottom: 70px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu {
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.logotipo {
+    display: inline-block;
+    margin-left: 0px;
+
+}
+
+
+.travel {
+    margin: 10px 10px 40px 10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #EBD5D5;
+    border-radius: 8px;
+}
+
+
+
+.right {
+    float: right;
+    /* position: relative;
+    top: -127px; */
+}
+
+.left {
+    float: left;
+    /* position: relative;
+    top: 80px; */
+}
+
+
+.contenedor-travel-a {
+    padding-left: 20px;
+}
+
+.contenedor-travel-b {
+    margin-left: 370px;
+}
+
+.header {
+    position: relative;
+}
+
+.footer {
+    background: #FF5959;
+    padding: 50px 10px;
+}
+
+.contacto {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacto img {
+    display: block;
+}
+
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    width: 400px;
+    color: white;
+
+}
+
+.col1, .col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1 {
+    margin-right: 15px;
+}
+
+.col2 {
+    align-items: flex-start;
+}
+
+.intereses label {
+    font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+    margin-bottom: 10px;
+}
+
+.sexo {
+    margin-top: 10px;
+}
+
+.contenedor img {
+    width: 300px;
+}
